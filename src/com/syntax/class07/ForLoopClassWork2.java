@@ -31,7 +31,7 @@ public class ForLoopClassWork2 {
 	System.out.println("");
 	System.out.println("-----odd-----");
 	
-	for(int i=20; i<=50;i++) {
+	for(int i=19; i<=50;i+=2) {
 		System.out.print(i+" ");
 	}
 	}

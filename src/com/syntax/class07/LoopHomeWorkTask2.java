@@ -38,7 +38,7 @@ public class LoopHomeWorkTask2 {
             reminder=sum-price;
 		if(sum<price) {
 			System.out.println("Please add more $ "+reminder);
-		
+		break;
 		}else if(sum>price) {
 		System.out.println(" Here is your change $ "+reminder);
 	
@@ -46,7 +46,7 @@ public class LoopHomeWorkTask2 {
 		System.out.println("You payed the right amount");
 	
 	}
-	}while(price!=sum);
+	}while(sum !=sum);
 		
 		System.out.println(" Thank you for shopping with us");
 		
