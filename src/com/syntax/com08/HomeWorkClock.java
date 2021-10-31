@@ -17,16 +17,16 @@ public class HomeWorkClock {
 		
 		else if(h>=10 && m<10){
 			System.out.println(h+ ":0"+m);
-		}
-		else {
-			System.out.println(h+ ":" + m);
+		}else {
+			System.out.println(h+ ":" + m);  
+		
 		}
 	
 	}
 	
 	                }                
 	            
-	       
+	  
 	}
 	
 	}
